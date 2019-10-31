@@ -7,5 +7,50 @@ html {
 }
 
 body {
-    background: #2C2141;;
+    background: #2C2141;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    max-width: 624px;
+    width: 100%;
+    padding: 32px;
+    
+}
+
+.person {
+    display: flex;
+    align-items: flex-start;
+}
+
+.person_header {
+    margin-bottom: 32px;
+}
+
+.person__photo {
+    margin-right: 32px;
+    max-width: 148px;
+    max-height: 148px;
+    border-radius: 80px;
+}
+
+.person__name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.person__position {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
 }
